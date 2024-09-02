@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1 class="section_title">Tips Calculator</h1>
+        <!-- display total value -->
+        <h3 class="total_title">Total Price : <br> <span id="total">____</span></h3>
+
+        <p class="section_text">Enter the bill amount and tips percentage to calculate the total.</p>
+
+        <div class="input_container">
+            <!-- Mian bill amount add here -->
+            <label for="bill">
+                <span> Bill Amount : </span> 
+                <input type="text" name="bill" id="bill" placeholder="Enter Bill Amount">
+            </label>
+            <!-- <br> -->
+            <!-- pit percentage amount add here -->
+            <label for="tip">
+                <span>Tips Percentage : </span> 
+                <input type="text" name="percentage" id="tip" placeholder="Enter Tip %">
+            </label>
+        
+        </div>
+        <!-- total calculate btn -->
+        <p><button id="calculate_brn">Calculate</button></p>
+    </section>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
